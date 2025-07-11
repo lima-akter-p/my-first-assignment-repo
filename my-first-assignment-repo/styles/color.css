@@ -22,20 +22,22 @@ nav li a{
 }
 
 .logo-text{
- font-size:34px;
+ font-size:70px;
  color: #4E47FF;
  font-weight: 600;
 }
-li button{
- background-color:#4E47FF;
+li button,but{
+  background-color:#4E47FF;
  color: white;
  border-radius:5px;
  cursor: pointer;
  border: none;
- padding: 15px 20px;
+ padding: 15px 40px;
+}
+ 
  
 
-}
+
 button:hover{
  background-color:black
 }
@@ -147,6 +149,10 @@ div h1{
   align-items: center;
   gap:10px;
 }
+
+.user{
+  align-items: center;
+}
 /* .section-3{ */
 
 
@@ -194,6 +200,47 @@ form input ,textarea{
   border-radius:5px;
   border: none;
 }
+/* footer */
+ul li{
+  list-style:none;
+
+}
+ul li a{
+  display:flex;
+  text-decoration: none;
+  color:rgb(152, 139, 139);
+
+}
+.div-foot{
+  margin: 0px 700px;
+  text-align: center;
+  justify-content: center;
+}
+div ul{
+  margin-right:10;
+  display: flex;
+  gap:100px;
+  justify-content:space-between;
+  width:513px;
+  height: 48px;
+  width:400px;
+}
+.ft{
+  gap:50px;
+}
+.logo{
+  font-size:100px;
+  font-weight:bold;
+  color: #4E47FF;
+  padding:20px;
+}
+
+ 
+
+
+ 
+  
+
 
   
  
